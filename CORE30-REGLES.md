@@ -20,7 +20,6 @@ index.html (homepage)
 │   └── services/pneus-etterbeek.html
 ├── vidange/index.html (catégorie — Service de vidange d'huile)
 │   ├── services/vidange-etterbeek.html
-│   └── services/liquide-refroidissement-etterbeek.html
 ├── mecanique/index.html (catégorie — Mécanicien)
 │   ├── services/freins-etterbeek.html
 │   ├── services/direction-suspension-etterbeek.html
