@@ -991,16 +991,99 @@ address {
    ═══════════════════════════════════════ */
 .reviews-section {
   text-align: center;
+  overflow: hidden;
 }
 
+/* ── Horizontal scroll strip ── */
+.reviews-strip {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  padding: 4px 0 16px;
+  margin-bottom: 28px;
+  scrollbar-width: none;
+}
+.reviews-strip::-webkit-scrollbar { display: none; }
+
+/* ── Google-style bubble card ── */
+.review-bubble {
+  flex: 0 0 auto;
+  width: 280px;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: 20px;
+  padding: 16px 20px;
+  text-align: left;
+  scroll-snap-align: start;
+  transition: box-shadow var(--transition-fast);
+  position: relative;
+}
+
+.review-bubble:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.review-bubble__top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.review-bubble__avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.review-bubble__name {
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.82rem;
+  color: var(--color-text);
+  line-height: 1.2;
+}
+
+.review-bubble__stars {
+  color: #F59E0B;
+  font-size: 0.82rem;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.review-bubble__stars svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  opacity: 0.5;
+}
+
+.review-bubble__text {
+  font-size: 0.83rem;
+  line-height: 1.5;
+  color: var(--color-text-secondary);
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ── CTA link ── */
 .reviews-cta {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
-  padding: 20px 36px;
+  gap: 10px;
+  padding: 14px 28px;
   background: var(--color-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-lg);
+  border-radius: 28px;
   transition: all var(--transition-base);
   box-shadow: var(--shadow-sm);
 }
@@ -1012,17 +1095,16 @@ address {
 }
 
 .reviews-cta__stars {
-  color: var(--color-accent);
-  font-size: 1.4rem;
-  letter-spacing: 2px;
+  color: #F59E0B;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
 }
 
 .reviews-cta__text {
-  font-family: var(--font-heading);
+  font-family: var(--font-body);
   font-weight: 600;
+  font-size: 0.85rem;
   color: var(--color-text);
-  text-transform: uppercase;
-  letter-spacing: 1px;
 }
 
 /* ═══════════════════════════════════════

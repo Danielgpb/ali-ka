@@ -65,18 +65,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const question = item.querySelector('.faq-item__question');
     const answer = item.querySelector('.faq-item__answer');
 
+    // Open all FAQ items by default
+    item.classList.add('active');
+    answer.style.maxHeight = answer.scrollHeight + 'px';
+
     question.addEventListener('click', () => {
       const isOpen = item.classList.contains('active');
 
-      // Close all other items
-      faqItems.forEach(other => {
-        if (other !== item) {
-          other.classList.remove('active');
-          other.querySelector('.faq-item__answer').style.maxHeight = '0';
-        }
-      });
-
-      // Toggle current item
       if (isOpen) {
         item.classList.remove('active');
         answer.style.maxHeight = '0';
