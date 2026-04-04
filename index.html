@@ -3,23 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/favicon.ico?v=2" sizes="any">
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=2">
+  <link rel="icon" href="/favicon.ico?v=3" sizes="any">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=3">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=3">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png?v=3">
   <title>Ali-Ka — Magasin de Pneus et Garage Automobile à Etterbeek</title>
   <meta name="description" content="Ali-Ka, magasin de pneus et garage automobile à Etterbeek depuis 22 ans. Pneus, vidange, mécanique et contrôle technique. 02 647 47 01.">
   <meta name="geo.region" content="BE-BRU">
   <meta name="geo.placename" content="Etterbeek">
-  <link rel="canonical" href="https://www.ali-ka.be/">
+  <link rel="canonical" href="https://ali-ka.be/">
 
   <!-- Open Graph -->
   <meta property="og:title" content="Ali-Ka — Magasin de Pneus et Garage Automobile à Etterbeek">
   <meta property="og:description" content="Garage spécialisé pneus et mécanique à Etterbeek. Plus de 22 ans d'expérience. Montage pneus, vidange, freins, batterie.">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.ali-ka.be/">
-  <meta property="og:image" content="https://www.ali-ka.be/images/ali-ka-garage-etterbeek.jpg">
+  <meta property="og:url" content="https://ali-ka.be/">
+  <meta property="og:image" content="https://ali-ka.be/images/ali-ka-garage-etterbeek.webp">
   <meta property="og:locale" content="fr_BE">
 
   <!-- Google Fonts -->
@@ -30,6 +30,9 @@
   <!-- CSS -->
   <link rel="stylesheet" href="css/style.css">
 
+  <!-- Preload hero image for LCP -->
+  <link rel="preload" as="image" href="images/hero-garage.webp" fetchpriority="high">
+
   <!-- JSON-LD Schema: LocalBusiness @graph -->
   <script type="application/ld+json">
   {
@@ -37,13 +40,13 @@
     "@graph": [
       {
         "@type": "AutoRepair",
-        "@id": "https://www.ali-ka.be/#business",
+        "@id": "https://ali-ka.be/#business",
         "name": "Ali-Ka",
         "alternateName": "Auto Ali-Ka",
         "description": "Ali-Ka, magasin de pneus et garage automobile à Etterbeek depuis plus de 22 ans. Cinq spécialités : pneus, vidange et entretien moteur, freins et mécanique automobile, entretien automobile complet et préparation au contrôle technique. Avenue des Casernes 10, 1040 Etterbeek.",
-        "url": "https://www.ali-ka.be/",
-        "telephone": "02 647 47 01",
-        "image": "https://www.ali-ka.be/images/ali-ka-garage-etterbeek.jpg",
+        "url": "https://ali-ka.be/",
+        "telephone": "+3226474701",
+        "image": "https://ali-ka.be/images/ali-ka-garage-etterbeek.webp",
         "priceRange": "€€",
         "currenciesAccepted": "EUR",
         "paymentAccepted": "Cash, Credit Card, Debit Card",
@@ -57,8 +60,8 @@
         },
         "geo": {
           "@type": "GeoCoordinates",
-          "latitude": 50.8389,
-          "longitude": 4.3920
+          "latitude": 50.82978,
+          "longitude": 4.39058
         },
         "hasMap": "https://maps.app.goo.gl/2USmUhGUdw2gpuhC9",
         "openingHoursSpecification": [
@@ -73,12 +76,6 @@
             "dayOfWeek": "Saturday",
             "opens": "09:00",
             "closes": "14:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Sunday",
-            "opens": "00:00",
-            "closes": "00:00"
           }
         ],
         "areaServed": [
@@ -96,6 +93,7 @@
         "aggregateRating": {
           "@type": "AggregateRating",
           "ratingValue": "4.6",
+          "reviewCount": "18",
           "bestRating": "5",
           "worstRating": "1"
         },
@@ -116,10 +114,10 @@
       },
       {
         "@type": "WebSite",
-        "@id": "https://www.ali-ka.be/#website",
-        "url": "https://www.ali-ka.be/",
+        "@id": "https://ali-ka.be/#website",
+        "url": "https://ali-ka.be/",
         "name": "Ali-Ka — Garage Automobile Etterbeek",
-        "publisher": { "@id": "https://www.ali-ka.be/#business" }
+        "publisher": { "@id": "https://ali-ka.be/#business" }
       }
     ]
   }
@@ -168,7 +166,7 @@
   <section class="hero">
     <div class="hero__bg">
       <!-- IMAGE: hero-garage.jpg -->
-      <img src="images/hero-garage.jpg" alt="Garage Ali-Ka à Etterbeek — Spécialiste pneus et mécanique automobile" width="1920" height="1080">
+      <img src="images/hero-garage.webp" alt="Garage Ali-Ka à Etterbeek — Spécialiste pneus et mécanique automobile" width="1920" height="1080" fetchpriority="high">
     </div>
     <div class="container">
       <div class="hero__content">
@@ -301,7 +299,7 @@
             </a>
           </div>
           <div class="category-block__image">
-            <img src="images/service-pneus.jpg" alt="Spécialiste pneus chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
+            <img src="images/service-pneus.webp" alt="Spécialiste pneus chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
           </div>
         </div>
       </div>
@@ -319,7 +317,7 @@
           </div>
           <div class="category-block__image">
             <!-- IMAGE: vidange-etterbeek.jpg -->
-            <img src="images/vidange-etterbeek.jpg" alt="Service de vidange automobile chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
+            <img src="images/vidange-etterbeek.webp" alt="Service de vidange automobile chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
           </div>
         </div>
       </div>
@@ -337,7 +335,7 @@
           </div>
           <div class="category-block__image">
             <!-- IMAGE: mecanique-etterbeek.jpg -->
-            <img src="images/mecanique-etterbeek.jpg" alt="Réparation mécanique automobile chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
+            <img src="images/mecanique-etterbeek.webp" alt="Réparation mécanique automobile chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
           </div>
         </div>
       </div>
@@ -355,7 +353,7 @@
           </div>
           <div class="category-block__image">
             <!-- IMAGE: entretien-etterbeek.jpg -->
-            <img src="images/entretien-etterbeek.jpg" alt="Entretien complet de véhicules chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
+            <img src="images/entretien-etterbeek.webp" alt="Entretien complet de véhicules chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
           </div>
         </div>
       </div>
@@ -372,7 +370,7 @@
             </a>
           </div>
           <div class="category-block__image">
-            <img src="images/service-controle-technique.png" alt="Préparation au contrôle technique chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
+            <img src="images/service-controle-technique.webp" alt="Préparation au contrôle technique chez Ali-Ka à Etterbeek" width="600" height="450" loading="lazy">
           </div>
         </div>
       </div>
@@ -388,7 +386,7 @@
         <p class="section__subtitle">Avenue des Casernes 10, 1040 Etterbeek — À deux pas du Parc du Cinquantenaire</p>
       </div>
       <div class="map-container reveal">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.8!2d4.3905835!3d50.8297831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4b99fc9ae87%3A0x7ca3a54edac997f4!2sAli-ka!5e0!3m2!1sfr!2sbe!4v1" title="Ali-Ka Garage Etterbeek sur Google Maps" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2519.8!2d4.3905835!3d50.8297831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c4b99ec9ae87%3A0x7ca3a54edac997f4!2sAli-ka!5e0!3m2!1sfr!2sbe!4v1712200000000" title="Ali-Ka Garage Etterbeek sur Google Maps" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
     </div>
   </section>
@@ -467,8 +465,8 @@
       </div>
 
       <div class="footer__bottom">
-        <span>&copy; 2026 Ali-Ka — Garage Automobile Etterbeek. Tous droits réservés.</span>
-        <span>Avenue des Casernes 10, 1040 Etterbeek — <a href="tel:+3226474701">02 647 47 01</a></span>
+        <span>&copy; 2026 Ali-Ka — Garage Automobile Etterbeek.</span>
+        <span><a href="mentions-legales/">Mentions légales</a> · <a href="politique-de-confidentialite/">Politique de confidentialité</a></span>
       </div>
     </div>
   </footer>

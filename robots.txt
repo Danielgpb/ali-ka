@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.ali-ka.be/sitemap.xml
+Sitemap: https://ali-ka.be/sitemap.xml

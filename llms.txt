@@ -1,0 +1,38 @@
+# Ali-Ka
+
+> Garage automobile et magasin de pneus a Etterbeek, Bruxelles, depuis 2004.
+> Avenue des Casernes 10, 1040 Etterbeek, Belgique — Tel. 02 647 47 01
+> Specialites : pneus, vidange, freins, diagnostic moteur, preparation controle technique.
+> Note 4,6/5 sur Google.
+
+## Services principaux
+
+- [Pneus Etterbeek](https://ali-ka.be/services/pneus-etterbeek.html): Vente, montage et equilibrage de pneus toutes marques et toutes saisons
+- [Vidange Etterbeek](https://ali-ka.be/services/vidange-etterbeek.html): Vidange moteur, remplacement filtres a huile
+- [Freins Etterbeek](https://ali-ka.be/services/freins-etterbeek.html): Remplacement plaquettes, disques, liquide de frein
+- [Diagnostic Moteur](https://ali-ka.be/services/diagnostic-moteur-etterbeek.html): Diagnostic electronique, voyants moteur
+- [Controle Technique](https://ali-ka.be/services/controle-technique-etterbeek.html): Preparation et accompagnement au CT belge
+- [Direction et Suspension](https://ali-ka.be/services/direction-suspension-etterbeek.html): Amortisseurs, rotules, biellettes
+- [Echappement](https://ali-ka.be/services/echappement-etterbeek.html): Remplacement pot, silencieux, flexible
+- [Batterie](https://ali-ka.be/services/batterie-etterbeek.html): Test et remplacement batteries
+- [Climatisation](https://ali-ka.be/services/climatisation-etterbeek.html): Recharge et entretien climatisation auto
+- [Eclairage](https://ali-ka.be/services/eclairage-etterbeek.html): Remplacement ampoules, phares, feux
+- [Filtre Habitacle](https://ali-ka.be/services/filtre-habitacle-etterbeek.html): Remplacement filtre habitacle
+- [Demarreur et Alternateur](https://ali-ka.be/services/demarreur-alternateur-etterbeek.html): Reparation et remplacement
+
+## Pages categories
+
+- [Pneus](https://ali-ka.be/pneus/)
+- [Vidange](https://ali-ka.be/vidange/)
+- [Mecanique](https://ali-ka.be/mecanique/)
+- [Entretien](https://ali-ka.be/entretien/)
+- [Controle Technique](https://ali-ka.be/controle-technique/)
+
+## Informations pratiques
+
+- Horaires : Lundi-Vendredi 09h-18h, Samedi 09h-14h, Dimanche ferme
+- Adresse : Avenue des Casernes 10, 1040 Etterbeek, Belgique
+- Telephone : 02 647 47 01
+- Zone desservie : Etterbeek, Ixelles, Schaerbeek, Woluwe-Saint-Lambert, Woluwe-Saint-Pierre, Auderghem, Bruxelles
+- Fonde en : 2004
+- Paiement : Especes, Carte de credit, Carte de debit
